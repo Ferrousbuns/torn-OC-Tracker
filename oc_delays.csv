@@ -1,0 +1,4 @@
+OC ID,Expected Ready Time (Timestamp),Expected Ready Time (UTC),Executed Time (Timestamp),Executed Time (UTC),Delaying Faction Member(s)
+1890150,1784255191,2026-07-17 02:26:31 TCT,1784269329,2026-07-17 06:22:09 TCT,"TheBakerGirl [3444238] (Missing Item (Okay, Req: Polymorphic Virus ❌))"
+1895488,1784382073,2026-07-18 13:41:13 TCT,1784382850,2026-07-18 13:54:10 TCT,"LostMaster [2908780] (Traveling (Traveling from South Africa to Torn, Req: Zip Ties ✅))"
+1895491,1784381923,2026-07-18 13:38:43 TCT,1784392211,2026-07-18 16:30:11 TCT,"Kainaan87 [2852623] (Traveling (Traveling from South Africa to Torn, Req: Ipecac Syrup ✅)); LilLoaf [3538297] (Hospital (In hospital for 2 mins , Req: Bolt Cutters ✅)); Frost2211 [3750471] (Hospital (In hospital for 36 secs, Req: Thermite ✅))"

@@ -1,0 +1,6 @@
+.env
+FACTION.env
+__pycache__/
+*.pyc
+.idea/
+.vscode/

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OC Delay Tracker | Torn City Faction</title>
+  <meta name="description" content="Search and analyze Organized Crime delays in your Torn City faction. View which members delayed OCs, when, and why.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+  <div class="background-elements">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+  </div>
+
+  <main class="container glassmorphism">
+    <!-- Header -->
+    <header>
+      <div class="header-badge"><span class="dot"></span> Live Tracker</div>
+      <h1>OC Delay Tracker</h1>
+      <p>Analyze Organized Crime delays. Identify who held up an OC, when, and why.</p>
+    </header>
+
+    <!-- Stats -->
+    <div class="stats-grid" id="stats-grid">
+      <div class="stat-card purple">
+        <span class="stat-icon">🗂️</span>
+        <div class="stat-value" id="stat-total">—</div>
+        <div class="stat-label">Total Delayed OCs</div>
+      </div>
+      <div class="stat-card red">
+        <span class="stat-icon">👤</span>
+        <div class="stat-value" id="stat-members">—</div>
+        <div class="stat-label">Unique Delayers</div>
+      </div>
+      <div class="stat-card amber">
+        <span class="stat-icon">⏱️</span>
+        <div class="stat-value" id="stat-avg-delay">—</div>
+        <div class="stat-label">Avg Delay (min)</div>
+      </div>
+      <div class="stat-card sky">
+        <span class="stat-icon">📅</span>
+        <div class="stat-value" id="stat-date-range">—</div>
+        <div class="stat-label">Date Range</div>
+      </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs-container">
+      <div class="tabs" role="tablist">
+        <button class="tab-btn active" id="tab-leaderboard" role="tab" aria-selected="true" onclick="switchTab('leaderboard')">🏆 Leaderboard</button>
+        <button class="tab-btn" id="tab-ocs" role="tab" aria-selected="false" onclick="switchTab('ocs')">📋 All OCs</button>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls-row">
+      <div class="search-wrapper" id="searchWrapper">
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="searchInput" placeholder="Search by name or ID..." class="search-input" oninput="applyFilters()">
+      </div>
+      <div class="date-inputs">
+        <input type="date" id="date-from" onchange="applyFilters()" title="From date">
+        <span class="date-sep">→</span>
+        <input type="date" id="date-to" onchange="applyFilters()" title="To date">
+      </div>
+      <div class="select-wrapper select-reason">
+        <select class="filter-select" id="reason-filter" onchange="applyFilters()">
+          <option value="">All Reasons</option>
+          <option value="hospital">🏥 Hospital</option>
+          <option value="traveling">✈️ Traveling</option>
+          <option value="missing">🔴 Missing Item</option>
+          <option value="other">🔮 Other</option>
+        </select>
+        <div class="select-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </div>
+      </div>
+      <span class="result-count" id="result-count"></span>
+    </div>
+
+    <!-- Leaderboard Panel -->
+    <div id="panel-leaderboard" class="fade-in">
+      <div class="section-title"><span class="icon">🏆</span> Leaderboard</div>
+      <div class="leaderboard" id="leaderboard-list">
+        <!-- Injected by JS -->
+      </div>
+    </div>
+
+    <!-- OCs Panel -->
+    <div id="panel-ocs" class="fade-in hidden">
+      <div class="section-title"><span class="icon">📋</span> Delayed OC Log</div>
+      <div class="table-container">
+        <div class="table-wrapper">
+          <table id="ocTable">
+            <thead>
+              <tr>
+                <th onclick="sortTable('id')" id="th-id" class="sortable-header">OC ID <span class="sort-icon">↕</span></th>
+                <th onclick="sortTable('ready')" id="th-ready" class="sortable-header">Expected Ready <span class="sort-icon">↕</span></th>
+                <th onclick="sortTable('exec')" id="th-exec" class="sortable-header active-sort">Executed At <span class="sort-icon">↓</span></th>
+                <th onclick="sortTable('delay')" id="th-delay" class="sortable-header">Delay <span class="sort-icon">↕</span></th>
+                <th>Delaying Members</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+              <!-- Injected by JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Loading / Empty State -->
+    <div class="empty-state" id="emptyState">
+      <svg id="loadingSpinner" class="empty-icon spin" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12a9 9 0 1 1-6.219-8.56"></path>
+      </svg>
+      <h2 id="loadingText">Loading Data...</h2>
+      <p id="loadingSubtext">Fetching OC delays from oc_delays.csv.</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
