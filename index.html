@@ -20,7 +20,6 @@
   <main class="container glassmorphism">
     <!-- Header -->
     <header>
-      <div class="header-badge"><span class="dot"></span> Live Tracker</div>
       <h1>OC Delay Tracker</h1>
       <p>Analyze Organized Crime delays. Identify who held up an OC, when, and why.</p>
     </header>
@@ -52,7 +51,7 @@
     <!-- Tabs -->
     <div class="tabs-container">
       <div class="tabs" role="tablist">
-        <button class="tab-btn active" id="tab-leaderboard" role="tab" aria-selected="true" onclick="switchTab('leaderboard')">🏆 Leaderboard</button>
+        <button class="tab-btn active" id="tab-leaderboard" role="tab" aria-selected="true" onclick="switchTab('leaderboard')">🏆 Top Delayers</button>
         <button class="tab-btn" id="tab-ocs" role="tab" aria-selected="false" onclick="switchTab('ocs')">📋 All OCs</button>
       </div>
     </div>
@@ -90,7 +89,7 @@
 
     <!-- Leaderboard Panel -->
     <div id="panel-leaderboard" class="fade-in">
-      <div class="section-title"><span class="icon">🏆</span> Leaderboard</div>
+      <div class="section-title"><span class="icon">🏆</span> Top Delayers</div>
       <div class="leaderboard" id="leaderboard-list">
         <!-- Injected by JS -->
       </div>
