@@ -291,7 +291,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     leaderboardList.innerHTML = list.map((m, i) => {
       const rankClass = i === 0 ? 'gold' : i === 1 ? 'silver' : i === 2 ? 'bronze' : '';
-      const rankLabel = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `#${i+1}`;
+      const rankLabel = `#${i+1}`;
       const colors = AVATAR_COLORS[i % AVATAR_COLORS.length];
       const initials = m.name.split(' ').map(w => w[0]).slice(0, 2).join('').toUpperCase();
 
