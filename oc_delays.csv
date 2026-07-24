@@ -5,3 +5,4 @@ OC ID,Expected Ready Time (Timestamp),Expected Ready Time (UTC),Executed Time (T
 1889191,1784511759,2026-07-20 01:42:39 TCT,1784534166,2026-07-20 07:56:06 TCT,"mvladimir0 [4192127] (Traveling (Traveling from China to Torn, Req: Jemmy ✅)); MaxwellKIngsley [4281868] (Traveling (Traveling from Cayman Islands to Torn, Req: Jemmy ✅))"
 1890143,1784552628,2026-07-20 13:03:48 TCT,1784552888,2026-07-20 13:08:08 TCT,"Babar0ga [4240705] (Hospital (In hospital for 18 mins , Req: Construction Helmet ✅))"
 1916706,1784644694,2026-07-21 14:38:14 TCT,1784655728,2026-07-21 17:42:08 TCT,JoshTorn [3967433] (Traveling (Traveling from Canada to Torn))
+1919990,1784840526,2026-07-23 21:02:06 TCT,1784840590,2026-07-23 21:03:10 TCT,None (Leader Delay / Ready but not initiated)
