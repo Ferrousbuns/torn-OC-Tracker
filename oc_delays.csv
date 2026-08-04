@@ -10,5 +10,5 @@ OC ID,Expected Ready Time (Timestamp),Expected Ready Time (UTC),Executed Time (T
 1951583,1785551501,2026-08-01 02:31:41 TCT,1785552610,2026-08-01 02:50:10 TCT,MaxwellKIngsley [4281868] (Traveling (Traveling from United Kingdom to Torn))
 1951584,1785551859,2026-08-01 02:37:39 TCT,1785553215,2026-08-01 03:00:15 TCT,"LostMaster [2908780] (Traveling (Traveling from South Africa to Torn, Req: Wire Cutters ✅))"
 1973015,1785755210,2026-08-03 11:06:50 TCT,1785774490,2026-08-03 16:28:10 TCT,"Knightstalker76 [4275057] (Traveling (Traveling from South Africa to Torn)); GuapboyTee [4228306] (Hospital (In hospital for 35 secs, Req: ATM Key ✅))"
-1965002,1785782045,2026-08-03 18:34:05 TCT,1785782110,2026-08-03 18:35:10 TCT,None (Leader Delay / Ready but not initiated)
+1965002,1785782045,2026-08-03 18:34:05 TCT,1785782110,2026-08-03 18:35:10 TCT,Unknown (Missing Data)
 1953351,1785791325,2026-08-03 21:08:45 TCT,1785794527,2026-08-03 22:02:07 TCT,"Lasdo [4238713] (Missing Item (Okay, Req: ID Badge ❌))"

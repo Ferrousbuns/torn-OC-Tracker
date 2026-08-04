@@ -374,7 +374,7 @@ async def poll_ocs():
                                 delaying_members_list.append(f"{m_name} ({m_reason})")
 
                         if not delaying_members_list:
-                            delaying_members_str = "None (Leader Delay / Ready but not initiated)"
+                            delaying_members_str = "Unknown (Missing Data)"
                         else:
                             delaying_members_str = "; ".join(delaying_members_list)
 
