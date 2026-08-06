@@ -440,8 +440,8 @@ async def notify_ocs():
 
             time_until_ready = ready_at - current_time
 
-            # Only notify within the window: up to 3.5h before ready, or up to 10h after ready
-            if not (-28800 <= time_until_ready <= alert_window):
+            # Only notify within the window: up to 3.5h before ready, or up to 12h after ready
+            if not (-43200 <= time_until_ready <= alert_window):
                 continue
 
             crime_name = oc.get("name", "Unknown Crime")
