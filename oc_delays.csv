@@ -18,3 +18,4 @@ OC ID,Expected Ready Time (Timestamp),Expected Ready Time (UTC),Executed Time (T
 1973033,1785995217,2026-08-06 05:46:57 TCT,1786007587,2026-08-06 09:13:07 TCT,"DreadsMagic [4271105] (Traveling (Traveling from South Africa to Torn)); Aluichi [3921258] (Traveling (Traveling from South Africa to Torn, Req: Gasoline ✅))"
 1973032,1786034654,2026-08-06 16:44:14 TCT,1786046286,2026-08-06 19:58:06 TCT,"Knightstalker76 [4275057] (Traveling (Traveling from UAE to Torn, Req: Dog Treats ✅)); GuapboyTee [4228306] (Hospital (In hospital for 3 mins , Req: Lockpicks ✅))"
 1990585,1786083125,2026-08-07 06:12:05 TCT,1786092312,2026-08-07 08:45:12 TCT,"JoshTorn [3967433] (Traveling (Traveling from United Kingdom to Torn)); Tonywrinkles [2756363] (Missing Item (Okay, Req: Billfold ❌))"
+2000717,1786231082,2026-08-08 23:18:02 TCT,1786231813,2026-08-08 23:30:13 TCT,zazadestroyer [4344614] (Traveling (Traveling from China to Torn))
