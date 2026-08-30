@@ -34,3 +34,7 @@ OC ID,Expected Ready Time (Timestamp),Expected Ready Time (UTC),Executed Time (T
 2060580,1787567825,2026-08-24 10:37:05 TCT,1787569329,2026-08-24 11:02:09 TCT,"Frost2211 [3750471] (Traveling (Traveling from Switzerland to Torn, Req: Wire Cutters ✅))"
 2060573,1787690933,2026-08-25 20:48:53 TCT,1787697308,2026-08-25 22:35:08 TCT,"Knightstalker76 [4275057] (Traveling (Traveling from UAE to Torn)); DreadsMagic [4271105] (Hospital (In hospital for 3 mins , Req: Gasoline ✅))"
 2060571,1787695621,2026-08-25 22:07:01 TCT,1787710088,2026-08-26 02:08:08 TCT,"ShaZaf [3968119] (Hospital (In hospital for 50 secs, Req: Blank Casino Chips ✅))"
+2072909,1787764999,2026-08-26 17:23:19 TCT,1787766488,2026-08-26 17:48:08 TCT,Iamkaylle90 [3022914] (Traveling (Traveling from China to Torn))
+2060563,1787745947,2026-08-26 12:05:47 TCT,1787773028,2026-08-26 19:37:08 TCT,zazadestroyer [4344614] (Traveling (Traveling from China to Torn))
+2042370,1787811065,2026-08-27 06:11:05 TCT,1787811126,2026-08-27 06:12:06 TCT,Unknown (Missing Data)
+2060575,1787828674,2026-08-27 11:04:34 TCT,1787834886,2026-08-27 12:48:06 TCT,"LostMaster [2908780] (Traveling (Traveling from United Kingdom to Torn, Req: Thermite ✅))"
