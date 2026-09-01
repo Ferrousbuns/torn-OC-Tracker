@@ -374,7 +374,7 @@ async def poll_ocs():
                                 delaying_members_list.append(f"{m_name} ({m_reason})")
 
                         if not delaying_members_list:
-                            delaying_members_str = "None (Leader Delay / Ready but not initiated)"
+                            delaying_members_str = "Unknown (Missing Data)"
                         else:
                             delaying_members_str = "; ".join(delaying_members_list)
 
@@ -440,8 +440,8 @@ async def notify_ocs():
 
             time_until_ready = ready_at - current_time
 
-            # Only notify within the window: up to 3.5h before ready, or up to 10h after ready
-            if not (-28800 <= time_until_ready <= alert_window):
+            # Only notify within the window: up to 3.5h before ready, or up to 12h after ready
+            if not (-43200 <= time_until_ready <= alert_window):
                 continue
 
             crime_name = oc.get("name", "Unknown Crime")
