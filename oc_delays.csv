@@ -41,3 +41,4 @@ OC ID,Expected Ready Time (Timestamp),Expected Ready Time (UTC),Executed Time (T
 2088700,1788058505,2026-08-30 02:55:05 TCT,1788058570,2026-08-30 02:56:10 TCT,Unknown (Missing Data)
 2080569,1788063765,2026-08-30 04:22:45 TCT,1788064929,2026-08-30 04:42:09 TCT,"DirtMcDirty [4276639] (Traveling (Traveling from South Africa to Torn, Req: Construction Helmet ✅))"
 2097898,1788099096,2026-08-30 14:11:36 TCT,1788101831,2026-08-30 14:57:11 TCT,"Aurafat [3196099] (Traveling (Traveling from Mexico to Torn, Req: Hand Drill ✅))"
+2097923,1788263290,2026-09-01 11:48:10 TCT,1788278648,2026-09-01 16:04:08 TCT,"LostMaster [2908780] (Traveling (Traveling from Japan to Torn, Req: Ipecac Syrup ✅))"
