@@ -42,3 +42,8 @@ OC ID,Expected Ready Time (Timestamp),Expected Ready Time (UTC),Executed Time (T
 2080569,1788063765,2026-08-30 04:22:45 TCT,1788064929,2026-08-30 04:42:09 TCT,"DirtMcDirty [4276639] (Traveling (Traveling from South Africa to Torn, Req: Construction Helmet ✅))"
 2097898,1788099096,2026-08-30 14:11:36 TCT,1788101831,2026-08-30 14:57:11 TCT,"Aurafat [3196099] (Traveling (Traveling from Mexico to Torn, Req: Hand Drill ✅))"
 2097923,1788263290,2026-09-01 11:48:10 TCT,1788278648,2026-09-01 16:04:08 TCT,"LostMaster [2908780] (Traveling (Traveling from Japan to Torn, Req: Ipecac Syrup ✅))"
+2088696,1788382682,2026-09-02 20:58:02 TCT,1788385508,2026-09-02 21:45:08 TCT,"DreadsMagic [4271105] (Traveling (Traveling from China to Torn, Req: RF Detector ✅))"
+2097916,1788493592,2026-09-04 03:46:32 TCT,1788496747,2026-09-04 04:39:07 TCT,"DesmondBlar [2192441] (Traveling (Traveling from Canada to Torn, Req: Cassock ✅))"
+2120366,1788595390,2026-09-05 08:03:10 TCT,1788610330,2026-09-05 12:12:10 TCT,Captain_taleb [4083947] (Traveling (Traveling from China to Torn)); XISTO [4167531] (Traveling (Traveling from United Kingdom to Torn))
+2103237,1788621168,2026-09-05 15:12:48 TCT,1788621548,2026-09-05 15:19:08 TCT,"EcoWarrior [3916682] (Traveling (Traveling from Canada to Torn, Req: Thermite ✅))"
+2097895,1788643471,2026-09-05 21:24:31 TCT,1788645427,2026-09-05 21:57:07 TCT,"Frost2211 [3750471] (Missing Item (Okay, Req: Tunneling Virus ❌))"
