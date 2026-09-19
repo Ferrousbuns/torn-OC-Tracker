@@ -65,3 +65,4 @@ OC ID,Expected Ready Time (Timestamp),Expected Ready Time (UTC),Executed Time (T
 2171363,1789500728,2026-09-15 19:32:08 TCT,1789500793,2026-09-15 19:33:13 TCT,Unknown (Missing Data)
 2153154,1789542162,2026-09-16 07:02:42 TCT,1789564870,2026-09-16 13:21:10 TCT,"DreadsMagic [4271105] (Traveling (Traveling from China to Torn, Req: Construction Helmet ✅)); Captain_taleb [4083947] (Traveling (Traveling from China to Torn)); MaxwellKIngsley [4281868] (Traveling (Traveling from Canada to Torn, Req: ID Badge ✅))"
 2171366,1789575942,2026-09-16 16:25:42 TCT,1789577351,2026-09-16 16:49:11 TCT,UntimelyDemise [4211790] (Hospital (In hospital for 2 hrs 24 mins ))
+2171371,1789719289,2026-09-18 08:14:49 TCT,1789723868,2026-09-18 09:31:08 TCT,"Aurafat [3196099] (Traveling (Traveling from China to Torn, Req: Lockpicks ✅))"
