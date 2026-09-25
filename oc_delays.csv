@@ -68,3 +68,4 @@ OC ID,Expected Ready Time (Timestamp),Expected Ready Time (UTC),Executed Time (T
 2171371,1789719289,2026-09-18 08:14:49 TCT,1789723868,2026-09-18 09:31:08 TCT,"Aurafat [3196099] (Traveling (Traveling from China to Torn, Req: Lockpicks ✅))"
 2171365,1789884153,2026-09-20 06:02:33 TCT,1789885869,2026-09-20 06:31:09 TCT,Aurafat [3196099] (Traveling (Traveling from China to Torn))
 2171368,1789892588,2026-09-20 08:23:08 TCT,1789895828,2026-09-20 09:17:08 TCT,"ShaZaf [3968119] (Missing Item (Okay, Req: Binoculars ❌))"
+2213738,1790253847,2026-09-24 12:44:07 TCT,1790253911,2026-09-24 12:45:11 TCT,Unknown (Missing Data)
