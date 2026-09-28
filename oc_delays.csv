@@ -70,3 +70,5 @@ OC ID,Expected Ready Time (Timestamp),Expected Ready Time (UTC),Executed Time (T
 2171368,1789892588,2026-09-20 08:23:08 TCT,1789895828,2026-09-20 09:17:08 TCT,"ShaZaf [3968119] (Missing Item (Okay, Req: Binoculars ❌))"
 2213738,1790253847,2026-09-24 12:44:07 TCT,1790253911,2026-09-24 12:45:11 TCT,Unknown (Missing Data)
 2213729,1790423759,2026-09-26 11:55:59 TCT,1790426412,2026-09-26 12:40:12 TCT,"LegendaryLmfao [4415272] (Traveling (Traveling from United Kingdom to Torn, Req: ID Badge ✅))"
+2213737,1790508561,2026-09-27 11:29:21 TCT,1790509514,2026-09-27 11:45:14 TCT,"EcoWarrior [3916682] (Traveling (Traveling from Canada to Torn, Req: Thermite ✅))"
+2213732,1790515807,2026-09-27 13:30:07 TCT,1790549291,2026-09-27 22:48:11 TCT,"zazadestroyer [4344614] (Traveling (Traveling from China to Torn)); muhaiminpapon [4255151] (Traveling (Traveling from United Kingdom to Torn)); Emanuelis [4344176] (Traveling (Traveling from UAE to Torn, Req: Construction Helmet ✅))"
