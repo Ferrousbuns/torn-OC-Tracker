@@ -77,3 +77,5 @@ OC ID,Expected Ready Time (Timestamp),Expected Ready Time (UTC),Executed Time (T
 2243441,1790951608,2026-10-02 14:33:28 TCT,1790953451,2026-10-02 15:04:11 TCT,Knightstalker76 [4275057] (Traveling (Traveling from Mexico to Torn))
 2243439,1791216312,2026-10-05 16:05:12 TCT,1791225970,2026-10-05 18:46:10 TCT,DreadsMagic [4271105] (Traveling (Traveling from China to Torn))
 2271376,1791492907,2026-10-08 20:55:07 TCT,1791492969,2026-10-08 20:56:09 TCT,Unknown (Missing Data)
+2296445,1791774171,2026-10-12 03:02:51 TCT,1791780672,2026-10-12 04:51:12 TCT,"LostMaster [2908780] (Traveling (Traveling from Hawaii to Torn, Req: Police Badge ✅))"
+2292560,1791786249,2026-10-12 06:24:09 TCT,1791786313,2026-10-12 06:25:13 TCT,Unknown (Missing Data)
