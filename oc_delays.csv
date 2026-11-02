@@ -91,3 +91,4 @@ OC ID,Expected Ready Time (Timestamp),Expected Ready Time (UTC),Executed Time (T
 2366381,1793389812,2026-10-30 19:50:12 TCT,1793397672,2026-10-30 22:01:12 TCT,"zazadestroyer [4344614] (Hospital (In hospital for 40 mins )); Emanuelis [4344176] (Hospital (In hospital for 3 mins , Req: Gasoline ✅))"
 2380329,1793467933,2026-10-31 17:32:13 TCT,1793468051,2026-10-31 17:34:11 TCT,"Weightman [3988670] (Hospital (In hospital for 3 hrs 24 mins , Req: Wire Cutters ✅))"
 2380376,1793478171,2026-10-31 20:22:51 TCT,1793479572,2026-10-31 20:46:12 TCT,"Dvfck [2527994] (Hospital (In hospital for 29 secs, Req: Angle Grinder ✅)); UnknownAnomaly [3023365] (Hospital (In hospital for 1 mins , Req: Floor Cleaner ✅))"
+2380327,1793573392,2026-11-01 22:49:52 TCT,1793575269,2026-11-01 23:21:09 TCT,JoshTorn [3967433] (Traveling (Traveling from Switzerland to Torn))
