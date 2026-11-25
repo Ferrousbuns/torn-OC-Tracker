@@ -105,3 +105,4 @@ OC ID,Expected Ready Time (Timestamp),Expected Ready Time (UTC),Executed Time (T
 2464047,1795273181,2026-11-21 14:59:41 TCT,1795274468,2026-11-21 15:21:08 TCT,"Uncle_Partisan [3273379] (Missing Item (Okay, Req: Shaped Charge ❌))"
 2481248,1795301729,2026-11-21 22:55:29 TCT,1795307051,2026-11-22 00:24:11 TCT,"JoshTorn [3967433] (Traveling (Traveling from UAE to Torn, Req: Wire Cutters ✅))"
 2481247,1795460416,2026-11-23 19:00:16 TCT,1795460588,2026-11-23 19:03:08 TCT,Unknown (Missing Data)
+2481246,1795529522,2026-11-24 14:12:02 TCT,1795529587,2026-11-24 14:13:07 TCT,Unknown (Missing Data)
